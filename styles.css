@@ -1,0 +1,77 @@
+body {
+    color: #121212;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f4;
+}
+
+.frame {
+    width: 380px;
+    margin: 50px auto; /* centers the frame */
+    text-align: center;
+    padding: 10px 60px;
+    border: 3px solid #121212;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #121212;
+}
+
+img {
+    width: 100%; /* Makes sure the image fits within the frame */
+    border: 3px solid #121212;
+}
+
+p {
+    font-size: 16px;
+    font-style: italic;
+    color: #121212;
+}
+
+.input {
+    display: block;
+    align-items: center;
+}
+
+input[type="email"] {
+    width: 200px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 3px solid #121212;
+    text-align: center;
+}
+
+button {
+    width: 226px;
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 14px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #121212;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 12px;
+}
